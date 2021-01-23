@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "UIButtonFlat",
+        "repositoryURL": "https://github.com/DarthXoc/UIButtonFlat.git",
+        "state": {
+          "branch": null,
+          "revision": "5f5cb919fe2acf7a54b00b5e8db1ad48b79f15d2",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
