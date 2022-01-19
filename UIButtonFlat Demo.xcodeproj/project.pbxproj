@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9635639A2798937C006DB92E /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963563992798937C006DB92E /* Packages.swift */; };
 		96623D0925BBCF3F00B4F2A6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 96623D0725BBCF3F00B4F2A6 /* LICENSE */; };
 		96623D0A25BBCF3F00B4F2A6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 96623D0825BBCF3F00B4F2A6 /* README.md */; };
 		96623D0E25BBD0B000B4F2A6 /* UIButtonFlat in Frameworks */ = {isa = PBXBuildFile; productRef = 96623D0D25BBD0B000B4F2A6 /* UIButtonFlat */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		963563992798937C006DB92E /* Packages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packages.swift; sourceTree = "<group>"; };
 		96623D0725BBCF3F00B4F2A6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		96623D0825BBCF3F00B4F2A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		967FF64225BB736A00EE6EEB /* UIButtonFlat Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButtonFlat Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 				967FF64525BB736A00EE6EEB /* AppDelegate.swift */,
 				967FF64E25BB736A00EE6EEB /* Assets.xcassets */,
 				967FF65325BB736A00EE6EEB /* Info.plist */,
+				963563992798937C006DB92E /* Packages.swift */,
 				967FF64725BB736A00EE6EEB /* SceneDelegate.swift */,
 				967FF65A25BB73BB00EE6EEB /* Storyboards */,
 				967FF65C25BB73E700EE6EEB /* View Controllers */,
@@ -177,6 +180,7 @@
 			files = (
 				967FF66625BB741600EE6EEB /* FlatBorderedViewController.swift in Sources */,
 				967FF64625BB736A00EE6EEB /* AppDelegate.swift in Sources */,
+				9635639A2798937C006DB92E /* Packages.swift in Sources */,
 				967FF66525BB741600EE6EEB /* FlatViewController.swift in Sources */,
 				967FF66725BB741600EE6EEB /* BorderedViewController.swift in Sources */,
 				967FF64825BB736A00EE6EEB /* SceneDelegate.swift in Sources */,
