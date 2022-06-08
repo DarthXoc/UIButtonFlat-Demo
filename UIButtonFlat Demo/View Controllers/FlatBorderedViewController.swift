@@ -25,30 +25,33 @@ class FlatBorderedViewController: UIViewController {
 //        let button: UIButton_Flat = UIButton_Flat(type: .custom);
         
         // Configure the normal button
+        buttonNormal.backgroundColor = .systemBlue;
         buttonNormal.flatBackground = true;
         buttonNormal.border = true;
-        buttonNormal.borderColor = .red;
+        buttonNormal.borderColor = .systemRed;
         buttonNormal.borderWidth = 1;
         buttonNormal.corner = true;
         buttonNormal.cornerRadius = 8;
-        buttonNormal.tintColor = .link;
+        buttonNormal.textColor = .white
                 
         // Configure the disabled button
+        buttonDisabled.backgroundColor = .systemBlue;
         buttonDisabled.flatBackground = true;
         buttonDisabled.border = true;
-        buttonDisabled.borderColor = .red;
+        buttonDisabled.borderColor = .systemRed;
         buttonDisabled.borderWidth = 1;
         buttonDisabled.corner = true;
         buttonDisabled.cornerRadius = 8;
-        buttonDisabled.tintColor = .link;
+        buttonDisabled.textColor = .white
         
         // Configure the highlighted button
+        buttonHighlighted.backgroundColor = .systemBlue;
         buttonHighlighted.flatBackground = true;
         buttonHighlighted.border = true;
-        buttonHighlighted.borderColor = .red;
+        buttonHighlighted.borderColor = .systemRed;
         buttonHighlighted.borderWidth = 1;
         buttonHighlighted.corner = true;
         buttonHighlighted.cornerRadius = 8;
-        buttonHighlighted.tintColor = .link;
+        buttonHighlighted.textColor = .white
     }
 }
