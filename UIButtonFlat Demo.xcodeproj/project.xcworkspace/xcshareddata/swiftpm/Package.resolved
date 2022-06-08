@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "UIButtonFlat",
-        "repositoryURL": "https://github.com/DarthXoc/UIButtonFlat.git",
-        "state": {
-          "branch": null,
-          "revision": "322725c240d239a2141a617739cb403c9acde990",
-          "version": "1.0.3"
-        }
+  "pins" : [
+    {
+      "identity" : "uibuttonflat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DarthXoc/UIButtonFlat.git",
+      "state" : {
+        "revision" : "ce6d21f9d13a7797a700ae22c98755c4efdd92c9",
+        "version" : "1.1.0"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

@@ -25,21 +25,24 @@ class FlatViewController: UIViewController {
 //        let button: UIButton_Flat = UIButton_Flat(type: .custom);
         
         // Configure the normal button
+        buttonNormal.backgroundColor = .systemBlue;
         buttonNormal.corner = true;
         buttonNormal.cornerRadius = 8;
         buttonNormal.flatBackground = true;
-        buttonNormal.tintColor = .link;
+        buttonNormal.textColor = .white
                 
         // Configure the disabled button
+        buttonDisabled.backgroundColor = .systemBlue;
         buttonDisabled.corner = true;
         buttonDisabled.cornerRadius = 8;
         buttonDisabled.flatBackground = true;
-        buttonDisabled.tintColor = .link;
+        buttonDisabled.textColor = .white
         
         // Configure the highlighted button
+        buttonHighlighted.backgroundColor = .systemBlue;
         buttonHighlighted.corner = true;
         buttonHighlighted.cornerRadius = 8;
         buttonHighlighted.flatBackground = true;
-        buttonHighlighted.tintColor = .link;
+        buttonHighlighted.textColor = .white
     }
 }
